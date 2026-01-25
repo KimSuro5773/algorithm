@@ -6,7 +6,7 @@ function solution(k, score) {
             array.unshift(el)
             array.sort((a, b) => b - a)
             answer.push(array.at(-1))
-            console.log(`array : ${array}`)
+
         } else {
             array.unshift(el)
             array.sort((a, b) => b - a)
